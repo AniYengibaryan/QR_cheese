@@ -120,7 +120,7 @@ sleep 2
 
 
 read -p $'\e[1;92m[\e[0m*\e[1;92m] \033[33mDark/Light: ' brightness
-read -p $'\e[1;92m[\e[0m*\e[1;92m] \033[33mColor:' color
+read -p $'\e[1;92m[\e[0m*\e[1;92m] \033[33mColor background:' color
 read -p $'\e[1;92m[\e[0m*\e[1;92m] \033[33mVersion:'    version
 read -p $'\e[1;92m[\e[0m*\e[1;92m] \033[33mPicture type(png,svg,...):' type
 
@@ -199,7 +199,7 @@ printf "\e[1;92m[\e[0m*\e[1;92m] Enter QR code parameters :\e[0m\e[1;77m %s\e[0m
 sleep 2
 
 read -p $'\e[1;92m[\e[0m*\e[1;92m] \033[33mDark/Light: ' brightness
-read -p $'\e[1;92m[\e[0m*\e[1;92m] \033[33mColor:' color
+read -p $'\e[1;92m[\e[0m*\e[1;92m] \033[33mColor background:' color
 read -p $'\e[1;92m[\e[0m*\e[1;92m] \033[33mVersion:'    version
 read -p $'\e[1;92m[\e[0m*\e[1;92m] \033[33mPicture type(png,svg,...):' type
 
